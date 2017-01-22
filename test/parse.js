@@ -1,6 +1,7 @@
 /*
  * @fileoverview Main Doctrine object
  * @author Yusuke Suzuki <utatane.tea@gmail.com>
+ * @author Joel Day <joelday@gmail.com>
  */
 /*global require describe it*/
 /*jslint node:true */
@@ -2759,6 +2760,7 @@ describe('exported Syntax', function() {
             UndefinedLiteral: 'UndefinedLiteral',
             VoidLiteral: 'VoidLiteral',
             UnionType: 'UnionType',
+            IntersectionType: 'IntersectionType',
             ArrayType: 'ArrayType',
             BooleanLiteralType: 'BooleanLiteralType',
             RecordType: 'RecordType',
