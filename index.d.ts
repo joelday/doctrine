@@ -151,7 +151,7 @@ export module type {
     UndefinedLiteral: 'UndefinedLiteral',
     VoidLiteral: 'VoidLiteral',
     UnionType: 'UnionType',
-    IntersectionType: 'UnionType',
+    IntersectionType: 'IntersectionType',
     ArrayType: 'ArrayType',
     RecordType: 'RecordType',
     FieldType: 'FieldType',
