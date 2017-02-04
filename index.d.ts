@@ -54,6 +54,8 @@ interface Options {
    * which the node is found in the source. Default: `false`.
    */
   lineNumbers?: boolean;
+
+  trackIndexes?: boolean;
 }
 
 /**
