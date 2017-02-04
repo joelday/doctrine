@@ -93,6 +93,10 @@ export interface Tag {
   kind?: string;
   /** Any errors that were encountered in parsing the tag. */
   errors?: string[];
+
+  startIndex?: number;
+  endIndex?: number;
+  globalEndIndex?: number;
 }
 
 export type Type =
