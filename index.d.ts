@@ -109,7 +109,7 @@ export type Type =
      type.NullableType | type.NullLiteral | type.OptionalType |
      type.ParameterType | type.RecordType | type.RestType |
      type.TypeApplication | type.UndefinedLiteral | type.UnionType |
-     type.IntersectionType | type.VoidLiteral | string);
+     type.IntersectionType | type.VoidLiteral);
 
 export module type {
   export interface AllLiteral { type: 'AllLiteral' }
