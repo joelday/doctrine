@@ -56,6 +56,8 @@ interface Options {
   lineNumbers?: boolean;
 
   trackIndexes?: boolean;
+
+  skipTypeContent?: boolean;
 }
 
 /**
@@ -91,7 +93,7 @@ export interface Tag {
   /** The description of the thing this tag is documenting. */
   description: string|null;
   /** The type of the thing this tag is documenting. */
-  type?: Type|null;
+  type?: Type|string|null;
   kind?: string;
   /** Any errors that were encountered in parsing the tag. */
   errors?: string[];
